@@ -15,11 +15,13 @@ import Person from './components/Person';
 import Stylesheet from './components/StyleSheet';
 import Inline from './components/Inline';
 import Form from './components/Form';
+import LifecycleA from './components/LifecycleA';
 function App() {
   return (
     <div className="App">
 
       <Form/>
+      <LifecycleA/>
       
       {/*<Inline/>*/}
       {/*<Greet name="Bruce" heroName="Batman">*/}
