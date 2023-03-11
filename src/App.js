@@ -16,12 +16,20 @@ import Stylesheet from './components/StyleSheet';
 import Inline from './components/Inline';
 import Form from './components/Form';
 import LifecycleA from './components/LifecycleA';
+import FragmentDemo from './components/FragmentDemo';
+import Table from './components/Table';
+import Columns from './components/Columns';
+import PureComp from './components/PureComp';
+import ParentComp from './components/ParentComp';
+
 function App() {
   return (
     <div className="App">
-
-      <Form/>
-      <LifecycleA/>
+      {/*<FragmentDemo/>*/}
+      {/*<Table/>*/}
+      <ParentComp/>
+      {/*<Form/>*/}
+      {/*<LifecycleA/>*/}
       
       {/*<Inline/>*/}
       {/*<Greet name="Bruce" heroName="Batman">*/}
