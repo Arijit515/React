@@ -40,9 +40,9 @@ import { UserProvider } from './components/userContext'
 function App() {
   return (
     <div className="App"> 
-    <UserProvider value="Arijit">
+    {/*<UserProvider value="Arijit">*/}
     <ComponentC/>
-    </UserProvider>
+    {/*</UserProvider>*/}
 
     {/*<CounterTwo render={(count, incrementCount) => (
       <ClickCounterTwo count={count} incrementCount={incrementCount}/>
