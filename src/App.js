@@ -41,7 +41,7 @@ function App() {
   return (
     <div className="App"> 
     {/*<UserProvider value="Arijit">*/}
-    <ComponentC/>
+    {/*<ComponentC/>*/}
     {/*</UserProvider>*/}
 
     {/*<CounterTwo render={(count, incrementCount) => (
